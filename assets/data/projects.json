@@ -1,0 +1,44 @@
+[
+    {
+      "projectItem": "GSIP",
+      "image": "GSIP.png",
+      "content": "GSIP is a mobile application built using Flutter, an integrated platform for the ed-tech industry. The platform aims to bridge the gaps between teachers, students, and parents by providing a comprehensive solution for their diverse needs.",
+      "link": "https://github.com/Piyu-Pika/gsip"
+    },
+    {
+      "projectItem": "MY AI",
+      "image": "project2.png",
+      "content": "Project 2 is a web application built with React and Node.js. It is an e-commerce platform for buying and selling products online.",
+      "link": "https://project2.com"
+    },
+    {
+      "projectItem": "Anime Quote App",
+      "image": "project3.gif",
+      "content": "This is a machine learning project that uses TensorFlow to classify images. It can recognize various objects, animals, and scenes.",
+      "link": "https://github.com/your-username/project3"
+    },
+    {
+      "projectItem": "Codsoft Quote Modle",
+      "image": "internship1.jpg",
+      "content": "During my internship at Company X, I worked on a data analysis project. It involved collecting and processing large datasets to extract meaningful insights.",
+      "link": "https://company-x.com/internship-project1"
+    },
+    {
+      "projectItem": "Cancer Priduction",
+      "image": "ybi1.png",
+      "content": "As part of my internship at YBI, I contributed to a healthcare project. It aimed to develop a machine learning model for early detection of cancer.",
+      "link": "https://ybi.org/internship-project1"
+    },
+    {
+      "projectItem": "YBI Internship Project 2",
+      "image": "ybi2.gif",
+      "content": "This project involved building a recommendation system for personalized product suggestions based on user preferences and purchase history.",
+      "link": "https://ybi.org/internship-project2"
+    },
+    {
+      "projectItem": "CodSoft Project 2",
+      "image": "codsoft2.jpg",
+      "content": "During my internship at CodSoft, I worked on a to-do list application. It was a cross-platform app built with React Native and Firebase.",
+      "link": "https://github.com/your-username/codsoft-todo-app"
+    }
+  ] 
