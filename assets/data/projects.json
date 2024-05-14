@@ -7,36 +7,36 @@
     },
     {
       "projectItem": "MY AI",
-      "image": "project2.png",
+      "image": "MY AI.png",
       "content": "Project 2 is a web application built with React and Node.js. It is an e-commerce platform for buying and selling products online.",
       "link": "https://project2.com"
     },
     {
       "projectItem": "Anime Quote App",
-      "image": "project3.gif",
+      "image": "anime quote app.png",
       "content": "This is a machine learning project that uses TensorFlow to classify images. It can recognize various objects, animals, and scenes.",
       "link": "https://github.com/your-username/project3"
     },
     {
-      "projectItem": "Codsoft Quote Modle",
+      "projectItem": "CodSoft Quote Modle",
       "image": "internship1.jpg",
       "content": "During my internship at Company X, I worked on a data analysis project. It involved collecting and processing large datasets to extract meaningful insights.",
       "link": "https://company-x.com/internship-project1"
     },
     {
-      "projectItem": "Cancer Priduction",
-      "image": "ybi1.png",
+      "projectItem": "Cancer Priductor",
+      "image": "ybi1.jpg",
       "content": "As part of my internship at YBI, I contributed to a healthcare project. It aimed to develop a machine learning model for early detection of cancer.",
       "link": "https://ybi.org/internship-project1"
     },
     {
-      "projectItem": "YBI Internship Project 2",
-      "image": "ybi2.gif",
+      "projectItem": "Purchase Priduction and MicroNumersity",
+      "image": "ybi2.jpg",
       "content": "This project involved building a recommendation system for personalized product suggestions based on user preferences and purchase history.",
       "link": "https://ybi.org/internship-project2"
     },
     {
-      "projectItem": "CodSoft Project 2",
+      "projectItem": "Codsoft To-do List",
       "image": "codsoft2.jpg",
       "content": "During my internship at CodSoft, I worked on a to-do list application. It was a cross-platform app built with React Native and Firebase.",
       "link": "https://github.com/your-username/codsoft-todo-app"
