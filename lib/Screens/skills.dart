@@ -1,32 +1,45 @@
 import 'package:flutter/material.dart';
 
 class UpdatesScreen extends StatelessWidget {
+  final List<String> imageAssets = [
+    "assets/images/as.png",
+    "assets/images/Pyt.png",
+    "assets/images/vsc.png",
+    "assets/images/flt.png",
+    "assets/images/C++.png",
+    "assets/images/fb.png",
+    "assets/images/dt.png",
+    "assets/images/c.png",
+    "assets/images/gh.png",
+    ""
+  ];
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        appBar: AppBar(
-          title: const Text('Updates'),
-        ),
-        body: Center(
-          child: Column(
-            children: [
-              SizedBox(
-                height: 200,
-                width: 200,
-                child: Image.asset("assets/images/pic.png"),
-              ),
-              const Text(
-                "Piyush Bhardwaj",
-              ),
-              const Text(""),
-              const Text(""),
-              const Padding(
-                padding: EdgeInsets.all(8.0),
-                child: Text(
-                    "An candidate for flutter app devloper .Persuing the B.tech form Chaudhray charan singh university in the field of computer Science and expalnding the skills in flutter ,dart and firebase for the app development .also having the skils in python , C language, C++ language .Experiance of one months intership for ai and ml in YBI foundation"),
-              )
-            ],
+      appBar: AppBar(
+        title: const Text('Updates'),
+      ),
+      body: Center(
+        child: GridView.builder(
+          gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
+            crossAxisCount: 2,
+            mainAxisSpacing: 8.0,
+            crossAxisSpacing: 8.0,
           ),
-        ));
+          itemCount: imageAssets.length,
+          itemBuilder: (context, index) {
+            return Padding(
+              padding: const EdgeInsets.all(8.0),
+              child: SizedBox(
+                height: 150,
+                width: 150,
+                child: Image.asset(imageAssets[index]),
+              ),
+            );
+          },
+        ),
+      ),
+    );
   }
 }
