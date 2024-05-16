@@ -83,15 +83,6 @@ class _ProjectUIState extends State<ProjectUI> {
           ),
         ],
       ),
-      bottomNavigationBar: BottomNavigationBar(
-        items: const [
-          BottomNavigationBarItem(icon: Icon(Icons.chat), label: 'Chats'),
-          BottomNavigationBarItem(icon: Icon(Icons.update), label: 'Updates'),
-          BottomNavigationBarItem(
-              icon: Icon(Icons.group), label: 'Communities'),
-          BottomNavigationBarItem(icon: Icon(Icons.call), label: 'Calls'),
-        ],
-      ),
     );
   }
 }
@@ -115,7 +106,7 @@ class ChatItem {
 class ChatItemWidget extends StatelessWidget {
   final ChatItem ProjectItem;
 
-  const ChatItemWidget({Key? key, required this.ProjectItem}) : super(key: key);
+  const ChatItemWidget({super.key, required this.ProjectItem});
 
   @override
   Widget build(BuildContext context) {
