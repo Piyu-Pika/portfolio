@@ -11,7 +11,7 @@ class UpdatesScreen extends StatelessWidget {
     "assets/images/dt.png",
     "assets/images/c.png",
     "assets/images/gh.png",
-    ""
+    "assets/images/vsc.png"
   ];
 
   @override

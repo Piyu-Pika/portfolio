@@ -3,11 +3,11 @@ import 'package:url_launcher/url_launcher.dart';
 
 class CallsScreen extends StatelessWidget {
   final String contactNumber = '8376049497';
-  final String email = 'piyush';
+  final String email = 'piyushbhardwaj1603@gmail.com';
   final String linkedInUrl =
       'https://www.linkedin.com/in/piyush-bhardwaj-flutter';
   final String githubUrl = 'https://github.com/Piyu-Pika';
-  final String whatsappNumber = '8376049497';
+  final String whatsappNumber = '+91 8376049497';
 
   Future<void> _launchUrl(String url) async {
     final Uri uri = Uri.parse(url);
